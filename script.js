@@ -2,9 +2,9 @@ const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
 // Game variables
-const blockSize = 32; // Size of each block in pixels
-const worldWidth = 30; // Number of blocks wide
-const worldHeight = 20; // Number of blocks high
+const blockSize = 40; // Size of each block in pixels
+const worldWidth = 40; // Number of blocks wide
+const worldHeight = 40; // Number of blocks high
 
 // World representation (2D array)
 let world = [];
