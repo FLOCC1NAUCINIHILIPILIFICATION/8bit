@@ -3,8 +3,8 @@ const ctx = canvas.getContext('2d');
 
 // Game variables
 const blockSize = 32; // Size of each block in pixels
-const worldWidth = 25; // Number of blocks wide
-const worldHeight = 18; // Number of blocks high
+const worldWidth = 30; // Number of blocks wide
+const worldHeight = 20; // Number of blocks high
 
 // World representation (2D array)
 let world = [];
