@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  overflow: hidden; /* Prevent scrollbars */
+  background-color: #333;
+}
+
+#gameCanvas {
+  background-color: #555;
+  display: block; /* Important for canvas sizing */
+}
