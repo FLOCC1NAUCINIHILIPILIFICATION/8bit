@@ -4,20 +4,31 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>2D Minecraft (Stable)</title>
-  <link rel="stylesheet" href <div id="hud">
-    <div class="line"><b>Move:</b> A/D or ←/→ <b>Jump:</b> W/↑/Space <b>Hotbar:</b> 1–6</div>
-    <div class="line"><b>Break:</b> Left Click <b>Place:</b> Right Click <b>Save:</b> K <b>Load:</b> L</div>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="hud">
+    <div class="line">
+      <b>Move:</b> A/D or ←/→ |
+      <b>Jump:</b> W/↑/Space |
+      <b>Hotbar:</b> 1–6
+    </div>
+    <div class="line">
+      <b>Break:</b> LMB |
+      <b>Place:</b> RMB |
+      <b>Save:</b> K |
+      <b>Load:</b> L
+    </div>
   </div>
 
   <div id="errorBox" hidden>
-    <div class="title">⚠️ Script Error</div>
-    <pre id="errorText"></pre>
-    <div class="hint">Open DevTools → Console for more details.</div>
+   errorText"></pre>
+    <div class="hint">Open DevTools → Console for details.</div>
   </div>
 
   <canvas id="gameCanvas" width="960" height="540"></canvas>
 
-  script.js</script>
+  <script src="script.js"></script>
 </body>
 </html>
-``
